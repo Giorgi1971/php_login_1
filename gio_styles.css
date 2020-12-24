@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 1080px;
+    height: 90px;
+    background-color: rgba(125, 125, 125, 0.3);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+nav ul li{
+    margin: 0 10px;
+}
+
+section{
+    width: 1080px;
+    margin: 0 auto;
+}
+
+
+div .user-ui{
+    margin:0 auto;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around   ;
+}
+
+.df5{
+    position: absolute;
+    width: 90%;
+    height: 50px;
+    left: 50px;
+    top: 500px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    text-align: right;
+    padding: 17px;
+}
+
+/* *{
+    margin: 20;
+    padding: 10;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 0.2px;
+    border-top-color: coral;
+}
+
+nav{
+    width: 1080px;
+    height: 100;
+    background-color: darkgray;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+nav ul{
+    background-color: darkorange;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li{
+    margin: 0px 10px; 
+}
+
+section{
+    width: 1200;
+    margin: 0 auto;
+}
+
+section .user-ui{
+    margin:0 auto;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around   ;
+} */
